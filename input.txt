@@ -86,4 +86,4 @@ That's all!
 - Questions? Refutations?
 - mastodon.social/@Zarkonnen
 - zarkonnen.itch.io
-- image discredit: MidJourney
+- image discredits: MidJourney
