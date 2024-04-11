@@ -1,0 +1,88 @@
+Thoughts on Game System Design and Implementation
+- David Stark
+- Gamespace, April 11, 2024
+What's a Game System
+- e.g a combat system
+- Subsystems: movement, damage, abilities
+- Game system design is a type of game design
+- Game system implementation is a type of software engineering
+Part I: Game System Design
+- Players need clear feedback
+- Strong, simple effects
+- Systems should interact in interesting ways
+- Systems should be balanced but not boring
+Interactions
+- e.g Jump + Dash
+- Toolbox of gameplay verbs
+- Different situations require different combinations
+Situation vs Solution
+- <img src="mechmap1.png">
+Disconnect
+- <img src="mechmap2.png">
+No Interactions
+- <img src="mechmap3.png">
+Balancing
+- Pure numerical balancing (eg DPS) is boring
+- Use discontinuity and incomparables
+Discontinuity: Damage
+- <table><tr><td>Small Pistol</td><td>Pistol</td><td>&nbsp;&nbsp;</td><td>Zombie</td><tr><tr><td><img src="smallpistol.png"></td><td><img src="largepistol.png"></td><td>&nbsp;&nbsp;</td><td><img src="zombie.png"></td></tr><tr><td>9 Damage</td><td>10 Damage</td><td>&nbsp;&nbsp;</td><td>10 HP</td></tr></table>
+Discontinuity: Overkill vs DPS
+- <table><tr><td>Pistol</td><td>Heavy Laser</td><tr><tr><td><img src="largepistol.png"></td><td><img src="laser.png"></td></tr><tr><td>10 Damage</td><td>1000 Damage</td></tr><tr><td>1s Reload</td><td>10s Reload</td></tr><tr><td>10 DPS</td><td>100 DPS</td></tr></table>
+Incomparables
+- <table><tr><td>Pistol</td><td>Laser Pistol</td><tr><tr><td><img src="largepistol.png"></td><td><img src="laserpistol.png"></td></tr><tr><td>1s Reload</td><td>0.5s Reload</td></tr><tr><td></td><td>Rare Ammo</td></tr></table>
+Learning
+- Use discontinuity, incomparables, things being good in certain situations
+- Let the player discover these things and feel clever
+Scope
+- Each system and mechanic needs to pull its weight
+- Prune systems and mechanics that don't recombine
+- Explanation cost is worse than implementation cost
+- Sometimes better to have an almost-as-good mechanic that doesn't require extra explanation
+On-Ramp
+- The ideal game needs no tutorial
+- Can you add systems over time while keeping the game fun?
+Summary: A system should:
+- give clear feedback to the player
+- be easy to explain
+- recombine with other systems
+- be non-linear
+Part II: Game System Implementation
+- This is how I do it
+- It's A Way, not The Way
+- I'm a programming-focused solo dev
+Simple Architecture
+- <img src="pojo.png">
+In Code
+- <p style="font-family: Monospace;">class&nbsp;Ship&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;ShipType&nbsp;type<br>&nbsp;&nbsp;&nbsp;&nbsp;List<Weapon>&nbsp;weapons<br>}<br><br>class&nbsp;ShipType&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;name<br>&nbsp;&nbsp;&nbsp;&nbsp;float&nbsp;speed<br>}</p>
+Monolith over Composition or Inheritance
+- Monolithic classes for eg ships, weapons, shots
+- No (or very little) class inheritance
+- Same behavior modified by data
+- Long but straightforward code files
+- Simple and clear control flow
+- No one else has to interact with this
+Data-Driven over Editor-Driven
+- Design around systems and stats, not levels/scenes
+- Levels are low-density information
+- Levels go out of sync
+- Levels accumulate special cases
+- Create data that plays well with version control
+- Create editors where visual feedback is useful or data too complex
+Immediate Mode
+- One source of truth
+- Recompute everything
+- No presentation state layer
+Drawbacks
+- Immediate mode makes animations, etc hard
+- Tree data structure gives bad memory locality compared to ECS
+- Completely at odds with popular engines like Unity and Godot
+Finally, A Trick: Conching
+- AI computation too slow?
+- Only have one (or a fixed number) entities do full AI each tick
+- System degrades gracefully
+- Realism: entities have a random response time
+- Realism: more entities take more time to act
+That's all!
+- Questions? Refutations?
+- mastodon.social/@Zarkonnen
+- zarkonnen.itch.io
