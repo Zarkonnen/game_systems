@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg477202"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="mechmapping.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview477204"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-nodes="false"
+     inkscape:zoom="1"
+     inkscape:cx="306"
+     inkscape:cy="-384"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs477199">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path478162" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker512137"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path512135" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path478141" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path478156" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) translate(6,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path478150" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker478424"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path478422" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path478165" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path478159" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path478138" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect579392"
+       width="79.188843"
+       height="104.02328"
+       x="108.19524"
+       y="-132.13193"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect477829"
+       width="67.849808"
+       height="49.750584"
+       x="72.292236"
+       y="35.22641"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect477285"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="7.9337249"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect477799"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="29.100382"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect477801"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="50.267052"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect477803"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="71.433739"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect477805"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="92.600426"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="m 48.556466,17.643128 22.542401,30.98602"
+       id="path478048"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="m 48.461496,38.248208 22.715254,15.208"
+       id="path478050"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="m 48.69084,60.840968 22.547066,-0.1374"
+       id="path478052"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.350432,81.827798 71.574795,69.736888"
+       id="path478054"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.295997,102.3493 71.817235,77.625378"
+       id="path478056"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.207099"
+       y="19.60631"
+       id="text480771"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan480769"
+         style="stroke-width:0.264583"
+         x="11.207099"
+         y="19.60631">Enemy 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="9.4001446"
+       y="105.06538"
+       id="text483415"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan483413"
+         style="stroke-width:0.264583"
+         x="9.4001446"
+         y="105.06538">Obstacles</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="16.855333"
+       y="83.898689"
+       id="text492461"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan492459"
+         style="stroke-width:0.264583"
+         x="16.855333"
+         y="83.898689">Goals</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.234659"
+       y="40.819473"
+       id="text506319"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan506317"
+         style="stroke-width:0.264583"
+         x="11.234659"
+         y="40.819473">Enemy 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.164035"
+       y="61.986137"
+       id="text509419"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan509417"
+         style="stroke-width:0.264583"
+         x="11.164035"
+         y="61.986137">Enemy 3</tspan></text>
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect512041"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="7.9337249"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect512043"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="29.100382"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect512045"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="50.267052"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect512047"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="71.433739"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect512049"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="92.600426"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 163.06016,17.643128 -22.5424,30.98602"
+       id="path512051"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 163.15513,38.248208 -22.71526,15.208"
+       id="path512053"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 162.92578,60.840968 -22.54706,-0.1374"
+       id="path512055"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="M 163.26619,81.827798 140.04183,69.736888"
+       id="path512057"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="M 163.32063,102.3493 139.79939,77.625378"
+       id="path512059"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.79895"
+       y="19.60631"
+       id="text512063"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan512061"
+         style="stroke-width:0.264583"
+         x="170.79895"
+         y="19.60631">Weapon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.75932"
+       y="104.38152"
+       id="text512067"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan512065"
+         style="stroke-width:0.264583"
+         x="170.75932"
+         y="104.38152">Ability 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.73177"
+       y="83.214836"
+       id="text512071"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan512069"
+         style="stroke-width:0.264583"
+         x="170.73177"
+         y="83.214836">Ability 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="174.73152"
+       y="41.456818"
+       id="text512075"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan512073"
+         style="stroke-width:0.264583"
+         x="174.73152"
+         y="41.456818">Boots</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="171.80836"
+       y="62.732002"
+       id="text512079"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan512077"
+         style="stroke-width:0.264583"
+         x="171.80836"
+         y="62.732002">Helmet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="87.498199"
+       y="62.732052"
+       id="text533657"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan533655"
+         style="stroke-width:0.264583"
+         x="87.498199"
+         y="62.732052">Mechanics</tspan></text>
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536878"
+       width="67.849808"
+       height="49.750584"
+       x="72.292236"
+       y="151.64308"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536880"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="124.35036"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#eed4c8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536882"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="145.51704"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536884"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="166.68373"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536886"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="187.85045"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536888"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="209.01715"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="m 48.556466,134.05982 22.542401,30.98604"
+       id="path536890"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.461496,154.66491 71.17675,169.87292"
+       id="path536892"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="m 48.69084,177.25768 22.547066,-0.1374"
+       id="path536894"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.350432,198.24453 71.574795,186.15361"
+       id="path536896"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.295997,218.76604 71.817235,194.0421"
+       id="path536898"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.207099"
+       y="136.02296"
+       id="text536902"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536900"
+         style="stroke-width:0.264583"
+         x="11.207099"
+         y="136.02296">Enemy 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="9.4001446"
+       y="221.48212"
+       id="text536906"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536904"
+         style="stroke-width:0.264583"
+         x="9.4001446"
+         y="221.48212">Obstacles</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="16.855333"
+       y="200.31541"
+       id="text536910"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536908"
+         style="stroke-width:0.264583"
+         x="16.855333"
+         y="200.31541">Goals</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.234659"
+       y="157.23613"
+       id="text536914"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536912"
+         style="stroke-width:0.264583"
+         x="11.234659"
+         y="157.23613">Enemy 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.164035"
+       y="178.40282"
+       id="text536918"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536916"
+         style="stroke-width:0.264583"
+         x="11.164035"
+         y="178.40282">Enemy 3</tspan></text>
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536920"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="124.35036"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536922"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="145.51704"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536924"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="166.68373"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536926"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="187.85045"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect536928"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="209.01715"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 163.06016,134.05982 -22.5424,30.98604"
+       id="path536930"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 163.15513,154.66491 -22.71526,15.20801"
+       id="path536932"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 162.92578,177.25768 -22.54706,-0.1374"
+       id="path536934"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="M 163.26619,198.24453 140.04183,186.15361"
+       id="path536936"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="M 163.32063,218.76604 139.79939,194.0421"
+       id="path536938"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.79895"
+       y="136.02296"
+       id="text536942"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536940"
+         style="stroke-width:0.264583"
+         x="170.79895"
+         y="136.02296">Weapon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.75932"
+       y="220.79828"
+       id="text536946"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536944"
+         style="stroke-width:0.264583"
+         x="170.75932"
+         y="220.79828">Ability 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.73177"
+       y="199.63155"
+       id="text536950"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536948"
+         style="stroke-width:0.264583"
+         x="170.73177"
+         y="199.63155">Ability 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="174.73152"
+       y="157.87347"
+       id="text536954"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536952"
+         style="stroke-width:0.264583"
+         x="174.73152"
+         y="157.87347">Boots</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="171.80836"
+       y="179.1487"
+       id="text536958"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536956"
+         style="stroke-width:0.264583"
+         x="171.80836"
+         y="179.1487">Helmet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="87.498199"
+       y="179.14874"
+       id="text536962"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan536960"
+         style="stroke-width:0.264583"
+         x="87.498199"
+         y="179.14874">Mechanics</tspan></text>
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537417"
+       width="67.849808"
+       height="49.750584"
+       x="72.292236"
+       y="273.35147"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#eec8ed;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537419"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="246.05881"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537421"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="267.22546"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#eeecc8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537423"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="288.39209"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#eec8db;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537425"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="309.55875"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537427"
+       width="43.954868"
+       height="19.669247"
+       x="4.7756672"
+       y="330.72537"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="m 48.556466,255.76823 22.542401,30.98604"
+       id="path537429"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.461496,276.37332 71.17675,291.58133"
+       id="path537431"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="m 48.69084,298.96609 22.547066,-0.1374"
+       id="path537433"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.350432,319.95294 71.574795,307.86202"
+       id="path537435"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 48.295997,340.47445 71.817235,315.75051"
+       id="path537437"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.207099"
+       y="257.73141"
+       id="text537441"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537439"
+         style="stroke-width:0.264583"
+         x="11.207099"
+         y="257.73141">Enemy 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="9.4001446"
+       y="343.19031"
+       id="text537445"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537443"
+         style="stroke-width:0.264583"
+         x="9.4001446"
+         y="343.19031">Obstacles</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="16.855333"
+       y="322.02368"
+       id="text537449"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537447"
+         style="stroke-width:0.264583"
+         x="16.855333"
+         y="322.02368">Goals</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.234659"
+       y="278.94452"
+       id="text537453"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537451"
+         style="stroke-width:0.264583"
+         x="11.234659"
+         y="278.94452">Enemy 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="11.164035"
+       y="300.11115"
+       id="text537457"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537455"
+         style="stroke-width:0.264583"
+         x="11.164035"
+         y="300.11115">Enemy 3</tspan></text>
+    <rect
+       style="fill:#eec8ed;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537459"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="246.05881"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537461"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="267.22546"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#eeecc8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537463"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="288.39209"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#eec8db;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537465"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="309.55875"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <rect
+       style="fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect537467"
+       width="43.954868"
+       height="19.669247"
+       x="162.88612"
+       y="330.72537"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 163.06016,255.76823 -22.5424,30.98604"
+       id="path537469"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 163.15513,276.37332 -22.71526,15.20801"
+       id="path537471"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="m 162.92578,298.96609 -22.54706,-0.1374"
+       id="path537473"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="M 163.26619,319.95294 140.04183,307.86202"
+       id="path537475"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="fill:#cbd9d9;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart)"
+       d="M 163.32063,340.47445 139.79939,315.75051"
+       id="path537477"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.79895"
+       y="257.73141"
+       id="text537481"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537479"
+         style="stroke-width:0.264583"
+         x="170.79895"
+         y="257.73141">Weapon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.75932"
+       y="342.50647"
+       id="text537485"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537483"
+         style="stroke-width:0.264583"
+         x="170.75932"
+         y="342.50647">Ability 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="170.73177"
+       y="321.33981"
+       id="text537489"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537487"
+         style="stroke-width:0.264583"
+         x="170.73177"
+         y="321.33981">Ability 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="174.73152"
+       y="279.58185"
+       id="text537493"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537491"
+         style="stroke-width:0.264583"
+         x="174.73152"
+         y="279.58185">Boots</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="171.80836"
+       y="300.85703"
+       id="text537497"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537495"
+         style="stroke-width:0.264583"
+         x="171.80836"
+         y="300.85703">Helmet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="87.498199"
+       y="300.85706"
+       id="text537501"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"><tspan
+         sodipodi:role="line"
+         id="tspan537499"
+         style="stroke-width:0.264583"
+         x="87.498199"
+         y="300.85706">Mechanics</tspan></text>
+    <rect
+       style="fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect541372"
+       width="24.943399"
+       height="34.762688"
+       x="45.065071"
+       y="-172.47565"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect541374"
+       width="43.954868"
+       height="19.669247"
+       x="45.065071"
+       y="-114.78093"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="48.907558"
+       y="-160.46849"
+       id="text541380"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan541378"
+         style="stroke-width:0.264583"
+         x="48.907558"
+         y="-160.46849">JSON</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="48.907558"
+         y="-151.64903"
+         id="tspan542852">File</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="50.078842"
+       y="-102.99982"
+       id="text541384"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan541382"
+         style="stroke-width:0.264583"
+         x="50.078842"
+         y="-102.99982">Ship Type</tspan></text>
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 45.194746,-167.21104 5.291997,-5.12413"
+       id="path544143"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.00000003,4.00000011;stroke-opacity:1;marker-end:url(#Arrow2Mend);stroke-dashoffset:0"
+       d="m 57.980616,-137.88185 v 22.72769"
+       id="path548695"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="60.334057"
+       y="-125.36611"
+       id="text550583"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan550581"
+         style="stroke-width:0.264583"
+         x="60.334057"
+         y="-125.36611">Load</tspan></text>
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 114.93977,-104.83216 H 88.703821"
+       id="path552744"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571144"
+       width="65.608727"
+       height="57.281395"
+       x="115.39612"
+       y="-114.78092"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571146"
+       width="65.608727"
+       height="57.281395"
+       x="115.39612"
+       y="-107.07571"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571148"
+       width="65.608727"
+       height="57.281395"
+       x="115.39612"
+       y="-99.370483"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571150"
+       width="65.608727"
+       height="57.281395"
+       x="115.39612"
+       y="-91.665176"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571152"
+       width="24.943399"
+       height="34.762688"
+       x="45.065071"
+       y="-172.47565"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571154"
+       width="43.954868"
+       height="19.669247"
+       x="45.065071"
+       y="-114.78093"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="48.907558"
+       y="-160.46849"
+       id="text571160"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571156"
+         style="stroke-width:0.264583"
+         x="48.907558"
+         y="-160.46849">JSON</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="48.907558"
+         y="-151.64903"
+         id="tspan571158">File</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="50.078842"
+       y="-102.99982"
+       id="text571164"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571162"
+         style="stroke-width:0.264583"
+         x="50.078842"
+         y="-102.99982">Ship Type</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="119.89252"
+       y="-82.14994"
+       id="text571168"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571166"
+         style="stroke-width:0.264583"
+         x="119.89252"
+         y="-82.14994">Ship</tspan></text>
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 45.194746,-167.21104 5.291997,-5.12413"
+       id="path571170"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.00000003,4.00000011;stroke-opacity:1;marker-end:url(#Arrow2Mend);stroke-dashoffset:0"
+       d="m 57.980616,-137.88185 v 22.72769"
+       id="path571172"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="60.334057"
+       y="-125.36611"
+       id="text571176"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571174"
+         style="stroke-width:0.264583"
+         x="60.334057"
+         y="-125.36611">Load</tspan></text>
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 114.93977,-104.83216 H 88.703821"
+       id="path571178"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571266"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-67.203194"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571268"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-64.557373"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571270"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-61.91156"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571272"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-59.265717"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571274"
+       width="24.943399"
+       height="34.762688"
+       x="4.5645466"
+       y="-119.8797"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571276"
+       width="43.954868"
+       height="19.669247"
+       x="4.5645466"
+       y="-62.184978"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="8.4070301"
+       y="-107.87255"
+       id="text571282"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571278"
+         style="stroke-width:0.264583"
+         x="8.4070301"
+         y="-107.87255">JSON</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.4070301"
+         y="-99.053101"
+         id="tspan571280">File</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="9.57831"
+       y="-50.403862"
+       id="text571286"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571284"
+         style="stroke-width:0.264583"
+         x="9.57831"
+         y="-50.403862">Ship Type</tspan></text>
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 4.6942136,-114.61508 5.292,-5.12413"
+       id="path571292"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 17.480088,-85.285897 v 22.72769"
+       id="path571294"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="19.833529"
+       y="-72.770164"
+       id="text571298"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571296"
+         style="stroke-width:0.264583"
+         x="19.833529"
+         y="-72.770164">Load</tspan></text>
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 74.439242,-52.236207 H 48.203293"
+       id="path571300"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571302"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-67.203194"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571304"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-64.557373"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571306"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-61.91156"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8e0ee;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571308"
+       width="43.954868"
+       height="19.669247"
+       x="120.14466"
+       y="-59.265717"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571310"
+       width="24.943399"
+       height="34.762688"
+       x="4.5645466"
+       y="-119.8797"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <rect
+       style="fill:#c8eeca;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect571312"
+       width="52.06752"
+       height="19.669247"
+       x="-3.5481093"
+       y="-62.184978"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="8.4070301"
+       y="-107.87255"
+       id="text571318"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571314"
+         style="stroke-width:0.264583"
+         x="8.4070301"
+         y="-107.87255">JSON</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="8.4070301"
+         y="-99.053101"
+         id="tspan571316">File</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-0.91517502"
+       y="-50.512394"
+       id="text571322"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571320"
+         style="stroke-width:0.264583"
+         x="-0.91517502"
+         y="-50.512394">Weapon Type</tspan></text>
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 4.6942136,-114.61508 5.292,-5.12413"
+       id="path571324"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1, 4;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 17.480088,-85.285897 v 22.72769"
+       id="path571326"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="19.833529"
+       y="-72.770164"
+       id="text571330"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan571328"
+         style="stroke-width:0.264583"
+         x="19.833529"
+         y="-72.770164">Load</tspan></text>
+    <path
+       style="opacity:1;fill:#e7e7e7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker478424)"
+       d="M 119.98717,-52.236207 H 48.203293"
+       id="path571332"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="124.32606"
+       y="-50.733562"
+       id="text575778"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan575776"
+         style="stroke-width:0.264583"
+         x="124.32606"
+         y="-50.733562">Weapon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="114.56115"
+       y="-121.88574"
+       id="text579396"
+       inkscape:export-filename="/home/zar/Desktop/pojo.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120"><tspan
+         sodipodi:role="line"
+         id="tspan579394"
+         style="stroke-width:0.264583"
+         x="114.56115"
+         y="-121.88574">Game</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="opacity:0.20942163">
+    <g
+       id="g536815"
+       inkscape:export-filename="/home/zar/Desktop/mechmap1.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+         d="m 72.79243,49.456654 c 1.306015,3.492643 7.730324,5.151864 11.093736,5.527821 0.894985,0.100039 2.277203,0.880229 2.700332,0.08526 0.88505,-1.662811 -1.563944,-4.003852 -1.161722,-5.952111 0.85807,-4.156295 10.346809,-4.982099 13.080347,-4.514784 1.487138,0.254238 2.759027,1.252016 3.696667,2.387428 3.70519,4.486719 -9.312195,5.588434 -3.432619,10.651413 2.078289,1.789642 4.811159,1.224907 7.305309,0.682125 3.02459,-0.65822 6.14263,-1.502378 9.03909,-2.624759 2.1692,-0.840571 -8.67883,-14.345706 4.64001,-12.887804 2.18725,0.239419 5.26503,7.182175 3.84278,9.121309 -5.25317,7.162321 -17.13536,1.991609 -11.78878,13.713645 0.93418,2.048142 2.50443,4.986711 4.66483,6.139096 4.1873,2.233564 7.4921,-12.894046 11.37924,-10.913949 4.62859,2.357787 -5.47106,12.393557 1.84368,17.241972 0.47309,0.313574 1.57914,1.342155 2.274,1.108451 1.29504,-0.435568 1.38488,-3.987639 0.87594,-5.22024 -0.67686,-1.639279 -4.05415,-12.641905 -3.8727,-14.751118 0.69398,-8.067247 9.23486,-0.502238 10.9987,1.692433"
+         id="path536210" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+         d="m 135.34805,56.684685 c -1.62159,-1.930858 -1.38788,-3.208372 -0.43952,-5.505183 1.4128,-3.421639 2.14661,-1.424837 4.51313,-1.707317"
+         id="path536212" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+         d="m 72.669505,61.112092 c 8.996124,-1.397288 8.253269,11.371877 13.990471,13.898235 1.534572,0.675743 3.755831,-0.164196 5.104907,-0.767387 13.730377,-6.139059 1.082673,-25.589492 14.165667,-21.757775 2.24449,0.65736 3.09897,1.552813 5.0169,3.069548 8.90788,7.044491 -3.69781,12.355253 -1.05082,16.458123 5.46643,8.473064 10.99621,-6.202649 15.38401,-6.733988 1.18602,-0.143623 1.93634,0.04367 1.93634,1.36424 0,1.555684 0.25459,3.038565 -0.44008,4.519065 -0.86632,1.846333 -8.29666,8.545417 0.34503,6.452481 3.82134,-0.925494 3.22354,-5.651342 2.72613,-8.060709 -2.45319,-11.882652 -14.67334,-10.07578 -19.88919,-18.737765 -8.31862,-13.81479 16.11427,-12.575762 12.42088,-5.349197"
+         id="path536214" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 72.662381,54.536196 c 4.555815,-3.787698 10.244136,1.131949 14.441322,-2.934065 6.776318,-6.564545 2.827544,-6.945926 10.55529,-8.521977 3.446247,-0.702853 4.099617,-0.76726 6.513167,1.875835 2.00003,2.190242 4.48613,5.444143 5.10491,8.441261 0.27707,1.341964 -1.53558,3.059514 -2.03131,3.798311 -2.63443,3.926125 -3.49092,5.619927 -6.53814,9.280477 -2.23706,2.687314 -9.131303,5.037026 -7.42021,9.953945 0.115305,0.331343 13.46281,3.475297 15.91041,3.211843 2.64247,-0.284424 5.07191,-1.51765 7.12928,-3.154812 2.95158,-2.348744 3.46416,-4.182306 -0.17603,-6.298171 -4.80383,-2.792222 -10.58197,-1.250738 -15.66681,-2.728492 -4.296287,-1.248587 -7.635209,-2.760398 -11.61807,-4.689583 -1.499094,-0.72612 -3.880598,-0.899197 -4.92888,-2.387428 -2.548803,-3.618489 7.881339,-8.763267 10.649897,-8.930897 20.907123,-1.26587 4.331319,17.57271 19.891563,27.904866 1.53065,1.016368 9.97565,-7.5868 12.38127,-8.434242 8.37172,-2.949154 7.23494,7.94067 12.80198,6.722224"
+         id="path536216"
+         sodipodi:nodetypes="cssssssssssssssssc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+         d="m 73.217219,76.972813 c 1.912059,-2.144173 3.364592,-6.433429 6.06594,-7.842547 1.750373,-0.913053 6.675941,2.469547 9.153636,2.216896 7.359005,-0.750398 14.882225,-6.850491 19.891555,-12.107658 3.50341,-3.676737 -3.88304,-6.666455 -6.15865,-9.360831 -2.725735,-3.227332 3.15163,-3.724752 5.80535,-4.753068 1.72449,-0.66824 3.4339,-1.478341 5.19293,-2.046367 1.7105,-0.552357 3.88707,18.78275 11.26414,16.230404 8.67927,-3.00288 4.30834,-14.557766 7.12195,-15.466303 4.95709,-1.600684 6.19268,10.173742 5.40869,13.211566 -1.09806,4.254802 -3.10033,13.736236 3.044,12.397994"
+         id="path536218" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+         d="m 71.341879,68.974287 c 13.633939,0.944768 11.113576,-17.433991 19.128705,-21.316313 0.696868,-0.337544 2.12757,1.889893 2.706455,2.297743 1.350153,0.95124 4.437059,1.603412 4.928883,3.495873 0.397772,1.530572 1.197636,5.677659 0,7.069897 -0.527098,0.612743 -12.190521,0.482983 -1.041482,5.883301 2.06748,1.001437 3.91346,2.209835 6.1611,1.193718 13.43048,-6.071677 -1.93388,-16.608769 1.32258,-26.072912 2.17615,-6.324449 14.52569,-2.832819 17.95521,-0.341063 0.91848,0.667329 0.0302,1.499957 0.5281,2.149543 0.0418,0.05449 2.36762,0.280197 2.48277,0.255797 2.11169,-0.447498 5.13572,-3.048188 7.36585,-2.472695 1.94602,0.502181 -1.89176,8.175233 -2.46878,9.153456 -3.80938,6.458079 -14.29363,1.000283 -18.83536,7.844401 -0.39801,0.599778 -1.15917,1.755822 -0.96817,2.524786 0.27357,1.101333 4.57585,1.985653 4.63661,1.999925 5.80835,1.364083 10.51813,-3.491246 13.25867,-2.216899 4.79579,2.230035 2.73856,7.961881 7.03541,10.465705 1.36635,0.796186 4.78678,0.230878 4.78678,-1.308391"
+         id="path536220" />
+    </g>
+    <g
+       id="g536976"
+       transform="translate(0,116.41668)"
+       inkscape:export-filename="/home/zar/Desktop/mechmap2.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 72.79243,49.456654 c 2.781159,-8.066067 9.465633,-10.168198 12.829045,-9.792241 0.894985,0.100039 0.541894,16.200291 0.965023,15.405322 0.88505,-1.662811 -1.563944,-4.003852 -1.161722,-5.952111 0.85807,-4.156295 10.346809,-4.982099 13.080347,-4.514784 1.487138,0.254238 2.759027,1.252016 3.696667,2.387428 3.70519,4.486719 -9.312195,5.588434 -3.432619,10.651413 2.078289,1.789642 4.811159,1.224907 7.305309,0.682125 3.02459,-0.65822 6.14263,-1.502378 9.03909,-2.624759 2.1692,-0.840571 -8.67883,-14.345706 4.64001,-12.887804 2.18725,0.239419 5.26503,7.182175 3.84278,9.121309 -5.25317,7.162321 -17.13536,1.991609 -11.78878,13.713645 0.93418,2.048142 2.50443,4.986711 4.66483,6.139096 4.1873,2.233564 7.4921,-12.894046 11.37924,-10.913949 4.62859,2.357787 -5.47106,12.393557 1.84368,17.241972 0.47309,0.313574 1.57914,1.342155 2.274,1.108451 1.29504,-0.435568 1.38488,-3.987639 0.87594,-5.22024 -0.67686,-1.639279 -4.05415,-12.641905 -3.8727,-14.751118 0.69398,-8.067247 9.23486,-0.502238 10.9987,1.692433"
+         id="path536964"
+         sodipodi:nodetypes="csssssssssssssssssc" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 135.34805,56.684685 c -1.62159,-1.930858 -1.38788,-3.208372 -0.43952,-5.505183 1.4128,-3.421639 2.14661,-1.424837 4.51313,-1.707317"
+         id="path536966" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 72.669505,61.112092 c 8.996124,-1.397288 8.253269,11.371877 13.990471,13.898235 1.534572,0.675743 3.755831,-0.164196 5.104907,-0.767387 13.730377,-6.139059 1.082673,-25.589492 14.165667,-21.757775 2.24449,0.65736 3.09897,1.552813 5.0169,3.069548 8.90788,7.044491 -3.69781,12.355253 -1.05082,16.458123 5.46643,8.473064 10.99621,-6.202649 15.38401,-6.733988 1.18602,-0.143623 1.93634,0.04367 1.93634,1.36424 0,1.555684 0.25459,3.038565 -0.44008,4.519065 -0.86632,1.846333 -8.29666,8.545417 0.34503,6.452481 3.82134,-0.925494 3.22354,-5.651342 2.72613,-8.060709 -2.45319,-11.882652 -14.67334,-10.07578 -19.88919,-18.737765 -8.31862,-13.81479 16.11427,-12.575762 12.42088,-5.349197"
+         id="path536968" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 84.722663,61.529566 c 4.555815,-3.787698 -1.816146,-5.861421 2.38104,-9.927435 6.776318,-6.564545 2.827544,-6.945926 10.55529,-8.521977 3.446247,-0.702853 4.099617,-0.76726 6.513167,1.875835 2.00003,2.190242 4.48613,5.444143 5.10491,8.441261 0.27707,1.341964 -1.53558,3.059514 -2.03131,3.798311 -2.63443,3.926125 -3.49092,5.619927 -6.53814,9.280477 -2.23706,2.687314 -9.131303,5.037026 -7.42021,9.953945 0.115305,0.331343 13.46281,3.475297 15.91041,3.211843 2.64247,-0.284424 5.07191,-1.51765 7.12928,-3.154812 2.95158,-2.348744 3.46416,-4.182306 -0.17603,-6.298171 -4.80383,-2.792222 -10.58197,-1.250738 -15.66681,-2.728492 -4.296287,-1.248587 -7.635209,-2.760398 -11.61807,-4.689583 -1.499094,-0.72612 -3.880598,-0.899197 -4.92888,-2.387428 -2.548803,-3.618489 7.881339,-8.763267 10.649897,-8.930897 20.907123,-1.26587 4.331319,17.57271 19.891563,27.904866 1.53065,1.016368 9.97565,-7.5868 12.38127,-8.434242 8.37172,-2.949154 7.23494,7.94067 12.80198,6.722224"
+         id="path536970"
+         sodipodi:nodetypes="cssssssssssssssssc" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 73.217219,76.972813 c 1.912059,-2.144173 3.364592,-6.433429 6.06594,-7.842547 1.750373,-0.913053 6.675941,2.469547 9.153636,2.216896 7.359005,-0.750398 14.882225,-6.850491 19.891555,-12.107658 3.50341,-3.676737 -3.88304,-6.666455 -6.15865,-9.360831 -2.725735,-3.227332 3.15163,-3.724752 5.80535,-4.753068 1.72449,-0.66824 3.4339,-1.478341 5.19293,-2.046367 1.7105,-0.552357 3.88707,18.78275 11.26414,16.230404 8.67927,-3.00288 4.30834,-14.557766 7.12195,-15.466303 4.95709,-1.600684 6.19268,10.173742 5.40869,13.211566 -1.09806,4.254802 -3.10033,13.736236 3.044,12.397994"
+         id="path536972" />
+      <path
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 71.341879,68.974287 c 13.633939,0.944768 11.113576,-17.433991 19.128705,-21.316313 0.696868,-0.337544 2.12757,1.889893 2.706455,2.297743 1.350153,0.95124 4.437059,1.603412 4.928883,3.495873 0.397772,1.530572 1.197636,5.677659 0,7.069897 -0.527098,0.612743 -12.190521,0.482983 -1.041482,5.883301 2.06748,1.001437 3.91346,2.209835 6.1611,1.193718 13.43048,-6.071677 -1.93388,-16.608769 1.32258,-26.072912 2.17615,-6.324449 14.52569,-2.832819 17.95521,-0.341063 0.91848,0.667329 0.0302,1.499957 0.5281,2.149543 0.0418,0.05449 2.36762,0.280197 2.48277,0.255797 2.11169,-0.447498 5.13572,-3.048188 7.36585,-2.472695 1.94602,0.502181 -1.89176,8.175233 -2.46878,9.153456 -3.80938,6.458079 -14.29363,1.000283 -18.83536,7.844401 -0.39801,0.599778 -1.15917,1.755822 -0.96817,2.524786 0.27357,1.101333 4.57585,1.985653 4.63661,1.999925 5.80835,1.364083 10.51813,-3.491246 13.25867,-2.216899 4.79579,2.230035 2.73856,7.961881 7.03541,10.465705 1.36635,0.796186 4.78678,0.230878 4.78678,-1.308391"
+         id="path536974" />
+    </g>
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.111385,287.65082 68.041555,-0.64426"
+       id="path540842"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.732996,292.66483 68.073244,-0.99954"
+       id="path540844"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.531521,298.53678 68.118599,0.22669"
+       id="path540846"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.364054,308.06588 67.275366,0.12065"
+       id="path540848"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <path
+       style="opacity:1;fill:#cceae7;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.778765,315.49445 66.424145,-0.19097"
+       id="path540850"
+       inkscape:export-filename="/home/zar/Desktop/mechmap3.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+  </g>
+</svg>
